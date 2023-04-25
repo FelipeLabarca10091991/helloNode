@@ -12,25 +12,40 @@
 </head>
 
 <body>
-
+    
     <%- include('partials/navigation') %>
 
-        <div class="container vh-100 d-flex justify-content-center text-align-center ">
-            <div class="card">
+        <div class="container vh-100 d-flex justify-content-center align-items-center ">
+            <div class="card bg-dark text-white text-center">
+
                 <div class="card-header">
-                    <h3> Contactame  </h3>
+                    <h3> Contactame </h3>
                 </div>
 
-                <div class="card-body">
+                <div class="card-body text-start">
 
-                    <label for="email">email</label>
-                    <input type="email" placeholder="amantedelaComida53@aol.com">
+                    <form action="">
+
+                        <div class="mb-3">
+                            <label for="email">email</label>
+                            <input type="email" placeholder="amantedelaComida53@aol.com" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message"> Mensaje </label>
+                            <textarea name="message" class="form-control" rows="3"
+                                placeholder="ej:  Hola Felipe, muy simpático tu perfil. Estás contratado"></textarea>
+                        </div>
+
+                        <button class="btn btn-primary ">Enviar</button>
+
+                    </form>
                 </div>
             </div>
 
         </div>
 
-
+    <%- include('partials/footer')%>
 </body>
 
 </html>

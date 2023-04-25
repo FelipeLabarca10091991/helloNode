@@ -1,7 +1,20 @@
 body{
-    background: #202020;
+    /* background: linear-gradient(to bottom, #120842, #202020); */
+    /**background: #202020; **/
+    background: url('https://rp-online.de/imgs/32/1/5/7/4/7/7/0/1/1/sunrise-1756274-bf2d0c4736881b44.jpg');
     color: rgb(213, 205, 223);
 }
-#contenedor #title #subtitle{
+#custom-nav{
+    
+    opacity: 0.5;
+}
+img{
+    border-radius: 50% 20% / 10% 40%;
+}
+#contenedor #title #subtitle {
     color: #746db3;
+}
+footer{
+    color: #746db3;
+    opacity: 0.6;
 }
