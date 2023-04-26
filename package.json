@@ -5,10 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "start":"node src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Felipe Labarca",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.9",
